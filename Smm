@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Διαχείριση & Marketing Social Media</title>
+    <style>
+        /* Reset & Βασικές Ρυθμίσεις */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        header {
+            background: #0056b3;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease-in;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 1100px;
+            width: 100%;
+        }
+        section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1.5s ease-in-out;
+        }
+        section h2 {
+            margin-bottom: 10px;
+            color: #0056b3;
+            font-size: 1.8em;
+        }
+        section p, ul {
+            font-size: 1em;
+            color: #555;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+            list-style: disc;
+        }
+        ul li {
+            margin-bottom: 10px;
+            animation: fadeInList 0.8s ease-in forwards;
+        }
+        ul li:nth-child(1) { animation-delay: 0.3s; }
+        ul li:nth-child(2) { animation-delay: 0.6s; }
+        ul li:nth-child(3) { animation-delay: 0.9s; }
+        ul li:nth-child(4) { animation-delay: 1.2s; }
+
+        .price {
+            text-align: center;
+            font-size: 1.8em;
+            margin-top: 20px;
+            color: #ff4500;
+            font-weight: bold;
+        }
+        .price span {
+            color: #28a745; /* Έντονο πράσινο */
+        }
+        .discount {
+            font-size: 1em;
+            font-weight: bold;
+            color: #0056b3;
+        }
+        footer, .contact-section {
+            text-align: center;
+            margin-top: 20px;
+            background: #0056b3;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .contact-section {
+            background: #28a745; /* Έντονο πράσινο */
+        }
+        .contact-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .contact-section input, .contact-section textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        .contact-section button {
+            background: #ff4500;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .contact-section button:hover {
+            background: #e63900;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            0% { transform: translateY(30px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeInList {
+            0% { opacity: 0; transform: translateX(-20px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header, section, .contact-section {
+                padding: 15px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            .price {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Διαχείριση & Marketing Social Media</h1>
+        <p>Αναπτύξτε την επωνυμία σας με επαγγελματικές στρατηγικές!</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Τι είναι η Διαχείριση Social Media;</h2>
+            <p>Η διαχείριση social media αφορά τη διαχείριση πλατφορμών όπως Instagram, Facebook και TikTok για να συνδεθείτε με το κοινό σας, να προωθήσετε την επωνυμία σας και να αυξήσετε την ανάπτυξή σας.</p>
+        </section>
+
+        <section>
+            <h2>Οι Στόχοι μας</h2>
+            <ul>
+                <li>Αύξηση των ακολούθων σας με οργανικό τρόπο.</li>
+                <li>Βελτίωση της αλληλεπίδρασης (likes, σχόλια, κοινοποιήσεις).</li>
+                <li>Δημιουργία αποτελεσματικών διαφημίσεων για το κοινό σας.</li>
+                <li>Ενίσχυση της ορατότητας και της αφοσίωσης στην επωνυμία σας.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Γιατί Διαχειριζόμαστε Αυτές τις Πλατφόρμες</h2>
+            <ul>
+                <li><strong>Instagram:</strong> Κατάλληλο για οπτικό περιεχόμενο και σύνδεση με νεότερο κοινό.</li>
+                <li><strong>Facebook:</strong> Τέλειο για διαφημίσεις και δέσμευση με διαφορετικά δημογραφικά.</li>
+                <li><strong>TikTok:</strong> Ιδανικό για viral περιεχόμενο και συμμετοχή στις τάσεις.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Τιμοκατάλογος</h2>
+            <p class="price">Μόνο <span>130€/μήνα</span></p>
+            <p class="discount">Ειδική προσφορά: 40€/εβδομάδα για μικρές δοκιμαστικές συνεργασίες!</p>
+        </section>
+
+        <section class="contact-section">
+            <h2>Επικοινωνήστε Μαζί μας</h2>
+            <p>Έχετε ερωτήσεις; Συζητήστε μαζί μας για τους επιχειρηματικούς σας στόχους!</p>
+            <form action="https://example.com/send-message" method="post">
+                <input type="text" name="name" placeholder="Όνομα" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Το μήνυμά σας" rows="5" required></textarea>
+                <button type="submit">Αποστολή Μηνύματος</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>Ξεκινήστε την επιτυχία στα social media σήμερα. Επικοινωνήστε μαζί μας τώρα!</p>
+    </footer>
+</body>
+</html>
